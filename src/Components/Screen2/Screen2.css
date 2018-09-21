@@ -1,0 +1,35 @@
+.Answer{
+    font-size: 13px;
+    width: 70%;
+    margin-left: 12%;
+    color: #321c16;
+}
+
+.Question{
+    font-size: 14px;
+    width: 70%;
+    margin-left: 12%;
+    font-weight: bold;
+    color: #321c16;
+}
+
+.s2_container{
+    text-align: left;
+    margin-top: 20vh;
+}
+
+.Q2{
+    margin-top: 2%;
+}
+
+
+.Q3{
+    margin-top: 2%;
+}
+
+.screen2{
+    /* height: 100vh; */
+    padding: 0;
+    margin: 0;
+    top: 0;
+}

@@ -1,0 +1,91 @@
+.s3_container{
+    font-weight: 13px;
+    margin-top: 20vh;
+    /* margin-left: 7vw; */
+    text-align: center;
+}
+.screen3{
+    /* z-index : 1;
+    position: absolute; */
+    /* height: 100vh; */
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+
+.VRLine{
+    margin-left: 20vw;
+    width: 2vw;
+}
+.vl {
+    border-left:0.5px solid #655348;
+    height: 20px;
+}
+pre{
+    padding: 0;
+    margin: 0;
+}
+.imglogo{
+    width: 3vw;
+    height: 3vh;
+}
+
+.displayBold{
+    color: #321C16;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+.social_container{
+    display: flex;
+    justify-content: center;
+}
+.contact_container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tinyText{
+    /* color: #655348; */
+    color: #321C16;
+    font-size: 12px;
+}
+
+.contact{
+    margin-right: 1vw;
+}
+.or{
+    line-height: 5vh;
+}
+.mail{
+}
+
+.img{
+    width: 4vw;
+    height: 4vh;
+}
+
+.smallHR{
+    width: 50%;
+    margin-bottom: 2%;
+    margin-left: 25%;
+    margin-bottom: 2%;
+    border-bottom:0.5px solid #321C16;
+}
+.socialItem{
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    cursor: pointer;
+}
+
+.spaceHR{
+    margin-top: 2%;
+}
+
+@media screen  and (max-width: 756px){
+    
+
+}
+  

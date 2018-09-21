@@ -1,0 +1,14 @@
+.pay_screen{
+    position: fixed;;
+    /* width:30%; */
+    /* height:40%; */
+    top:20%;
+    left:40%;
+    z-index:10;
+    padding: 12px;
+    /* background-color:white; */
+    font-size: 13px;
+}
+.PayLogo{
+    cursor: pointer;
+}

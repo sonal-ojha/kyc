@@ -1,0 +1,63 @@
+screen{
+    /* position: fixed;
+    top: 50%; */
+}
+.column {
+    float: left;
+    width: 50%;
+}
+
+.left_Column{
+    padding: 0;
+    margin: 0;
+    top: 50%;
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+}
+.right_Column{
+    padding: 0;
+    margin: 0;
+    top: 50%;
+    width: 50%;
+    height: 100vh;
+}
+.btnNavigate{
+    border-radius: 50%;
+    background: #2a2625;
+    color:#FF7F00;
+    cursor: pointer;   
+    border: none;
+    width: 25px;
+    height: 25px;
+}
+.btnNavigateContainer{
+    position: absolute;
+    top: 90vh;
+    left: 49vw;
+    z-index: 2;
+}
+
+@media (max-width: 480px){
+    .btnNavigateContainer{
+    top: 80vh;
+    left: 90vw;
+    }
+}
+
+.backImg{
+    background-image: url('..//..//images/BG_1.jpg');
+    position: absolute;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  .screenBackground{
+    background-color:  #e0d6cf; 
+    opacity: .4;
+    /* position: relative; */
+    /* z-index: -1; */
+  }

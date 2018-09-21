@@ -1,0 +1,161 @@
+.form_container{
+    padding: 0;
+    margin: 0;
+    top: 0;
+    background: #131313;
+    opacity: 0.87;
+    filter: alpha(opacity=50);
+    /* height: 63vh; */
+    width: 65%;  
+    margin-top: 20vh;
+    margin-left: 10vw;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 12px;
+}
+
+.label{
+    color: #797a7b;
+    font-size: 12px;
+}
+
+.input{
+    background: #131313;
+    color:white;
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: white;
+    width: 25vw;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.label > p{
+    display: flex;
+    justify-content: center;
+    color: #797a7b;
+    font-size: 12px;
+    width: 90%;
+    padding-top: 30px;
+}
+.kycdata{
+    padding-left: 30px;
+    padding-top: 10px;
+    /* width: 50vw; */
+}
+
+.headerType{
+    padding-top: 20px;
+    cursor: pointer;
+    color: white;
+    padding-left: 20px;
+}
+
+.submitBtn{
+    width: 130px;
+    background: #FF7F00;
+    color: white;
+    border:#FF7F00;
+    cursor: pointer;
+    font-size: 11px;
+    height: 4vh;
+}
+
+.btnContainer{
+    text-align: center;
+    width: 25vw;
+    height: 15vh;
+    padding-top: 5%;
+}
+
+.enquiryData{
+    padding-left: 30px;
+    padding-top: 10px;
+    width: 90%; 
+}
+
+/* .file{
+    color: white;
+    background: #131313;
+} */
+
+.upload{
+    height: 2vh;
+    width: 2vw;
+    cursor: pointer;
+    margin-right: 1vw;
+}
+
+.file_container{
+    display: flex;
+    justify-content:left;
+    /* height: 10%;
+    width: 80%; */
+    margin-bottom: 1%;
+}
+.panLabel{
+    /* width: 7vw; */
+    height: 3vh;
+    margin-right: 2vw;
+}
+/* .imgspan{
+    width: 50%;
+    height: 10%
+} */
+.uploadLabel{
+    padding: 0;
+    margin: 0;
+    /* height: 4vh;
+    width: 4vw; */
+}
+hr{
+    margin: 0;
+}
+.line{
+    color: white;
+    width: 25vw;
+    border:none;
+    /* border-top:0.5px solid #FFFFFF; */
+    border: 0.5px solid #FFFFFF;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 5%;   
+}
+
+.btn{
+    margin-top: 5vh;
+}
+
+/* CSS to display a image to upload files */
+input[type=file] {
+    display:none;
+    margin:10px;
+    } */
+input[type=file] + label {
+    /* display:inline-block;
+    background-color: #FFFFFF;
+    border:solid 1px #666F77;
+    border-radius: 6px;
+    color:#666F77; */
+    background-color: aqua;
+    }
+input[type=file]:active + label {
+    /* background-image: none;
+    background-color:#2D6C7A;
+    color:#FFFFFF; */
+    background-color: #FFFFFF;
+}
+
+.disable{
+    color : #797A7B;
+    padding-top: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.selectedFileBlock{
+    display: flex;
+}
