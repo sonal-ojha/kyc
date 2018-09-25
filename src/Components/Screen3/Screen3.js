@@ -27,7 +27,7 @@ class Screen3 extends React.Component {
                             <div className="contact" >
                                 <div>
                                     <img src={tel} alt="Call To" className="img" />
-                                    <pre className="displayBold">+91-81-05377103</pre>
+                                    <pre className="displayBold">+91-8073573206</pre>
                                 </div>
                             </div>
                             <div className="or" >
@@ -42,7 +42,7 @@ class Screen3 extends React.Component {
                             <div className="mail" >
                                 <div>
                                     <img src={envelope} alt="Call To" className="img" />
-                                    <p className="displayBold">support@dockettech.com</p>
+                                    <p className="displayBold">services@dockettech.com</p>
                                 </div>
                             </div>
                         </div>

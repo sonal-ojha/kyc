@@ -26,6 +26,7 @@ class Screen1 extends React.Component {
                     <div className="row-sm-12 footer">
                         <p>
                             * Mandatory as per Companies Act 2013
+                            <p> * Govt fee of Rs.500 applicable till 5th October</p>
                     </p>
                     </div>
                 </div>
